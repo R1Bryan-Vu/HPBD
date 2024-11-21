@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            background-color: #e6f7ff;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(135deg, #4da6ff, #80dfff);
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 1.8em;
+        }
+        .content {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+        }
+        .card {
+            background: linear-gradient(135deg, #99ccff, #cceeff);
+            border-radius: 20px;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        .title {
+            font-size: 2.5em;
+            color: #003366;
+        }
+        .message {
+            font-size: 1.5em;
+            color: #004d99;
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #80dfff;
+            color: #004d99;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        button {
+            background-color: #4da6ff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #3399ff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        🎂 Chúc mừng sinh nhật bố! 🎉
+    </header>
+    <div class="content">
+        <section id="card" class="card">
+            <h1 class="title">🎉 Happy Birthday, my Father! 🎉</h1>
+            <p class="message">Con biết là năm nay con lên học đại học nên con không thể về và đón sinh nhật cùng bố và mẹ với em nhưng con làm thiệp này cũng là một món quà nho nhỏ cũng như là lời chúc mừng sinh nhật đến bố, bước sang tuổi mới con mong bố luôn mạnh khỏe, luôn giữ một tinh thần vui vẻ cùng mọi người và luôn gặt hái được nhiều trái ngọt trong cuộc sống và sự nghiệp của bố ! 🎂</p>
+        </section>
+        <section id="guestbook">
+            <h2>Your wish here 💌</h2>
+            <form action="https://formspree.io/f/mkgnzknk" method="POST">
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="wish">Điều ước của bố:</label><br>
+                <textarea id="wish" name="wish" rows="4" required></textarea><br><br>
+                <button type="submit">Gửi</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        Made with ❤️ for your special day of the year!
+    </footer>
+</body>
+</html>
